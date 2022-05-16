@@ -277,7 +277,7 @@ Plik [fotony.txt](http://elektron.elka.pw.edu.pl/~mrupniew/adps/fotony.txt) zawi
 * Metodą bootstrapu parametrycznego wyznacz dla obu metod (momentów oraz największej wiarygodności) odchylenia standardowe estymatorów parametrów rozkładu gamma ($\alpha$ i $\beta$) oraz ich przedziały ufności na poziomie ufności 95%. Porównaj wyniki uzyskane dla obu metod.
 
 ```{r}
-photons = scan('fotony.txt')
+photons = scan('http://elektron.elka.pw.edu.pl/~mrupniew/adps/fotony.txt')
 n = length(photons)
 quiet = TRUE 
 ```
