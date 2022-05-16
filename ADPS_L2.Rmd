@@ -32,7 +32,7 @@ czasu (dane zostały zebrane o różnych porach dnia).
 
 ```{r}
 n = 300
-turns = scan('skrety.txt')
+turns = scan('http://elektron.elka.pw.edu.pl/~mrupniew/adps/skrety.txt')
 
 lambda = mean(turns)
 quiet = TRUE 
